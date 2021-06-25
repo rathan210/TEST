@@ -1,0 +1,138 @@
+Configuration	Fryer
+STM32CubeMX 	5.6.1
+Date	09/30/2020
+MCU	STM32F030R8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Encoder Mode	TIM1_CH1	PA8
+TIM1	Encoder Mode	TIM1_CH2	PA9
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM15	Internal Clock	TIM15_VS_ClockSourceINT	VP_TIM15_VS_ClockSourceINT
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Output	relay_4
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+8	PC0	GPIO_Output	op_5
+9	PC1	GPIO_Output	relay_3
+10	PC2	GPIO_Output	op_3
+11	PC3	GPIO_Output	relay_2
+14	PA0	GPIO_Output	relay_1
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+19	PF5	GPIO_Output	ILI9341_CS
+20	PA4	GPIO_Output	temp_cs
+21	PA5	SPI1_SCK	
+22	PA6	SPI1_MISO	
+23	PA7	SPI1_MOSI	
+24	PC4	GPIO_Output	ILI9341_DC
+25	PC5	GPIO_Output	ILI9341_Reset
+26	PB0	GPIO_Output	ILI9341_RES
+28	PB2	GPIO_Input	motor_nf
+29	PB10	GPIO_Output	motor_n2
+30	PB11	GPIO_Output	motor_n1
+34	PB13	GPIO_Input	new_rOK
+35	PB14	GPIO_Input	Stop_key
+36	PB15	GPIO_Input	Home_key
+37	PC6	GPIO_Input	back_key
+38	PC7	GPIO_EXTI7	m_forward_switch
+39	PC8	GPIO_EXTI8	m_reverse_switch
+41	PA8	TIM1_CH1	
+42	PA9	TIM1_CH2	
+44	PA11	GPIO_Input	rotary_sw
+55	PB3	GPIO_Output	buzzer
+61	PB8	I2C1_SCL	
+62	PB9	I2C1_SDA	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Encoder Mode	TIM1_CH1	PA8
+TIM1	Encoder Mode	TIM1_CH2	PA9
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM15	Internal Clock	TIM15_VS_ClockSourceINT	VP_TIM15_VS_ClockSourceINT
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Output	relay_4
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+8	PC0	GPIO_Output	op_5
+9	PC1	GPIO_Output	relay_3
+10	PC2	GPIO_Output	op_3
+11	PC3	GPIO_Output	relay_2
+14	PA0	GPIO_Output	relay_1
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+19	PF5	GPIO_Output	ILI9341_CS
+20	PA4	GPIO_Output	temp_cs
+21	PA5	SPI1_SCK	
+22	PA6	SPI1_MISO	
+23	PA7	SPI1_MOSI	
+24	PC4	GPIO_Output	ILI9341_DC
+25	PC5	GPIO_Output	ILI9341_Reset
+26	PB0	GPIO_Output	ILI9341_RES
+28	PB2	GPIO_Input	motor_nf
+29	PB10	GPIO_Output	motor_n2
+30	PB11	GPIO_Output	motor_n1
+34	PB13	GPIO_Input	new_rOK
+35	PB14	GPIO_Input	Stop_key
+36	PB15	GPIO_Input	Home_key
+37	PC6	GPIO_Input	back_key
+38	PC7	GPIO_EXTI7	m_forward_switch
+39	PC8	GPIO_EXTI8	m_reverse_switch
+41	PA8	TIM1_CH1	
+42	PA9	TIM1_CH2	
+44	PA11	GPIO_Input	rotary_sw
+55	PB3	GPIO_Output	buzzer
+61	PB8	I2C1_SCL	
+62	PB9	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Fryer
+Project Folder : C:\Users\CEPL\STM32CubeIDE\Fryer\Fryer
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F0 V1.11.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

@@ -1,0 +1,4 @@
+menu_display.c:96:6:MachineProcess	24	static
+menu_display.c:968:6:DisplayPrint	40	static
+menu_display.c:2386:6:canister_detect	0	static
+menu_display.c:2396:6:switchDetected	0	static

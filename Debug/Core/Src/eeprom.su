@@ -1,0 +1,5 @@
+eeprom.c:39:6:ee24_isConnected	8	static
+eeprom.c:50:6:ee24_write	48	static
+eeprom.c:109:6:ee24_read	32	static
+eeprom.c:139:6:eeprom_init	16	static
+eeprom.c:228:6:save_count	24	static

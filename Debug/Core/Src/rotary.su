@@ -1,0 +1,4 @@
+rotary.c:36:6:TM_RE_Init	8	static
+rotary.c:59:6:TM_RE_Get	0	static
+rotary.c:115:6:TM_RE_SetMode	0	static
+rotary.c:120:6:TM_RE_Process	16	static

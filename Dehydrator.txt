@@ -1,0 +1,120 @@
+Configuration	Dehydrator
+STM32CubeMX 	6.0.0
+Date	10/01/2020
+MCU	STM32F030R8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM15	Internal Clock	TIM15_VS_ClockSourceINT	VP_TIM15_VS_ClockSourceINT
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+11	PC3	GPIO_Output	INLET_MOTOR
+14	PA0	GPIO_Output	SSR_RELAY
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+19	PF5	GPIO_Output	ILI9341_CS
+20	PA4	GPIO_Output	temp_cs
+21	PA5	SPI1_SCK	
+22	PA6	SPI1_MISO	
+23	PA7	SPI1_MOSI	
+24	PC4	GPIO_Output	ILI9341_DC
+25	PC5	GPIO_Output	ILI9341_Reset
+26	PB0	GPIO_Output	ILI9341_RES
+34	PB13	GPIO_Input	UP_DIRECTION
+35	PB14	GPIO_Input	DOWN_DIRECTION
+36	PB15	GPIO_Input	OK_PIN
+38	PC7	GPIO_Input	IR_OBJECT_DETECTION
+39	PC8	GPIO_Output	STEPPER_4_EN
+40	PC9	GPIO_Output	STEPPER_4_PUL
+41	PA8	GPIO_Input	IR_LEVEL_SNR
+47	PF6	GPIO_Output	STEPPER_1_EN
+48	PF7	GPIO_Output	STEPPER_1_PUL
+56	PB4	GPIO_Output	STEPPER_3_EN
+57	PB5	GPIO_Output	STEPPER_3_PUL
+61	PB8	GPIO_Output	STEPPER_2_EN
+62	PB9	GPIO_Output	STEPPER_2_PUL
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM15	Internal Clock	TIM15_VS_ClockSourceINT	VP_TIM15_VS_ClockSourceINT
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+11	PC3	GPIO_Output	INLET_MOTOR
+14	PA0	GPIO_Output	SSR_RELAY
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+19	PF5	GPIO_Output	ILI9341_CS
+20	PA4	GPIO_Output	temp_cs
+21	PA5	SPI1_SCK	
+22	PA6	SPI1_MISO	
+23	PA7	SPI1_MOSI	
+24	PC4	GPIO_Output	ILI9341_DC
+25	PC5	GPIO_Output	ILI9341_Reset
+26	PB0	GPIO_Output	ILI9341_RES
+34	PB13	GPIO_Input	UP_DIRECTION
+35	PB14	GPIO_Input	DOWN_DIRECTION
+36	PB15	GPIO_Input	OK_PIN
+38	PC7	GPIO_Input	IR_OBJECT_DETECTION
+39	PC8	GPIO_Output	STEPPER_4_EN
+40	PC9	GPIO_Output	STEPPER_4_PUL
+41	PA8	GPIO_Input	IR_LEVEL_SNR
+47	PF6	GPIO_Output	STEPPER_1_EN
+48	PF7	GPIO_Output	STEPPER_1_PUL
+56	PB4	GPIO_Output	STEPPER_3_EN
+57	PB5	GPIO_Output	STEPPER_3_PUL
+61	PB8	GPIO_Output	STEPPER_2_EN
+62	PB9	GPIO_Output	STEPPER_2_PUL
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Dehydrator
+Project Folder : C:\Users\CEPL\Desktop\dehydeated\Dehydrator
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F0 V1.11.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

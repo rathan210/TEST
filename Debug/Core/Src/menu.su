@@ -1,0 +1,5 @@
+menu.c:115:6:addMenu	40	static
+menu.c:348:6:getMenu	32	static
+menu.c:528:6:addMenuUart	48	static
+menu.c:1215:6:updateMenu	24	static
+menu.c:1348:6:resetPortionCount	24	static
